@@ -49,6 +49,7 @@ Vim-plug 為Vim**管理外掛插件**中好用的套件。
 
 * URL
   * https://github.com/junegunn/vim-plug (官方版有比較完整的功能介紹)
+---
 
 ### Vim-airline
 
@@ -89,6 +90,7 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
 * URL
   * https://github.com/vim-airline/vim-airline
   * https://github.com/vim-airline/vim-airline-themes
+---
 
 ### NERDTree
 
@@ -146,6 +148,7 @@ NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟�
 * URL
   * https://github.com/preservim/nerdtree (官方版)
   * https://gist.github.com/ifels/e0a6d79ee60e113f4294 (NERDTree 快捷鍵參考)
+---
 
 ### Ctrlp
 
@@ -179,6 +182,7 @@ Ctrlp為Vim搜尋檔案的插件。可藉由輸入檔名，ctrlp會找到所有�
 
 * URL
   * https://github.com/kien/ctrlp.vim (官方版)
+---
 
 ### Vim-surround
 
