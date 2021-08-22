@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/jason_tu/.vim/colors'
+let g:netrw_dirhist_3='/Users/jason_tu/.vim'
+let g:netrw_dirhist_2='/Users/jason_tu/code'
+let g:netrw_dirhist_1='/Users/jason_tu/.oh-my-zsh'
