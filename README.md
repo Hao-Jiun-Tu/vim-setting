@@ -71,7 +71,7 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
   套用主題指令：
 
   ```visual basic
-  :AirlineTheme <theme>					 "Set in Vim Normal Mode
+  :AirlineTheme <theme>			 "Set in Vim Normal Mode
   let g:airline_theme='<theme>'  "Set in .vimrc
   ```
 
@@ -237,7 +237,7 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 
 
-[1]:  https://github.com/powerline/fonts	"Powerline-fonts"
-[2]: https://github.com/tpope/vim-repeat	"Vim-repeat"
-[3]: https://vimcolorschemes.com/	"Vimcolorschemes"
+[1]: https://github.com/powerline/fonts	"Powerline-fonts"
+[2]: https://github.com/tpope/vim-repeat "Vim-repeat"
+[3]: https://vimcolorschemes.com/ "Vimcolorschemes"
 
