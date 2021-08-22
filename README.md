@@ -71,7 +71,7 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
   套用主題指令：
 
   ```visual basic
-  :AirlineTheme <theme>			 "Set in Vim Normal Mode
+  :AirlineTheme <theme>          "Set in Vim Normal Mode
   let g:airline_theme='<theme>'  "Set in .vimrc
   ```
 
