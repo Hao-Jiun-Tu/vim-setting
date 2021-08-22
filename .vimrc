@@ -16,8 +16,6 @@ set showmatch
 :set background=dark
 colorscheme gruvbox 
 
-source $HOME/.vim/hdlmap.vim
-
 "Check keyboard button codes using cmd :h key-notation 
 
 "Command shortcuts @ insert mode
@@ -64,22 +62,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-surround'
 call plug#end()
 
-"airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline_theme = 'angr'
-
-"nerdtree mapping
-inoremap <silent> <F10> <Esc>:NERDTreeToggle<CR>
-map <silent> <F10> <Esc>:NERDTreeToggle<CR>
-"to solve nerdtree 
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
-set termencoding=utf-8
-set encoding=utf-8
-" Close the tab if NERDTree is the only window remaining in it.
-autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-
-let NERDTreeMinimalUI = 1
