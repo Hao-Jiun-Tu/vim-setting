@@ -18,7 +18,7 @@ Vim-plug 為Vim**管理外掛插件**中好用的套件。
 
 * Vim檔案管理規劃
 
-  設定檔 `.vimrc` 、 `.gvimrc` 可以透過此規劃，自動地讀取相對應的vim script，不用額外在設定檔 source script (當然這個做法也是可以) 。關於Vim檔案管理規劃，根據各種不同的vim script，在 `~/.vim` 文件下會有對應的目錄。例如：與背景主題配色相關的script會放在 `~/.vim/colors` 、跟**外掛插件有關的放在 `~/.vim/plugin` **等等。如果想知道更多目錄配置，可以在Vim Normal mode輸入 `:h vimfiles` 查詢。
+  設定檔 `.vimrc` 、 `.gvimrc` 可以透過此規劃，自動地讀取相對應的vim script，不用額外在設定檔 source script (當然這個做法也是可以) 。關於Vim檔案管理規劃，根據各種不同的vim script，在 `~/.vim` 文件下會有對應的目錄。例如：與背景主題配色相關的script會放在 `~/.vim/colors` 、跟 **外掛插件有關的放在 `~/.vim/plugin`** 等等。如果想知道更多目錄配置，可以在Vim Normal mode輸入 `:h vimfiles` 查詢。
 
 * Installation (Unix) & Configurations
 
@@ -46,12 +46,12 @@ Vim-plug 為Vim**管理外掛插件**中好用的套件。
 
 * Pros
 
-  1. 下載速度較快、簡便、容易使用
-  2. 具插件管理功能 (若不需要僅需砍掉特定目錄即可)
+1. 下載速度較快、簡便、容易使用
+2. 具插件管理功能 (若不需要僅需砍掉特定目錄即可)
 
 * URL
 
-  https://github.com/junegunn/vim-plug (官方版有比較完整的功能介紹)
+https://github.com/junegunn/vim-plug (官方版有比較完整的功能介紹)
 
 ### Vim-airline
 
@@ -91,8 +91,8 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
 
 * URL
 
-  1. https://github.com/vim-airline/vim-airline
-  2. https://github.com/vim-airline/vim-airline-themes
+1. https://github.com/vim-airline/vim-airline
+2. https://github.com/vim-airline/vim-airline-themes
 
 ### NERDTree
 
@@ -140,16 +140,16 @@ NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟�
   ```
 
 * Keyboard shortcuts
-  1. m: 編輯檔案 (按完m後會有manu提供修改、複製、搬移、創建檔案/目錄)
-  2.  o: 展開/回縮目錄
-  3.  C: 進入目錄
-  4.  u: 回上一層目錄
-  5.   t: 檔案開啟分頁
-  6.   I: 選擇是否顯示隱藏檔(如：`.vimrc`)
+1. m: 編輯檔案 (按完m後會有manu提供修改、複製、搬移、創建檔案/目錄)
+2. o: 展開/回縮目錄
+3. C: 進入目錄
+4. u: 回上一層目錄
+5. t: 檔案開啟分頁
+6. I: 選擇是否顯示隱藏檔(如：`.vimrc`)
 
 * URL
-  1. https://github.com/preservim/nerdtree (官方版)
-  2. https://gist.github.com/ifels/e0a6d79ee60e113f4294 (NERDTree 快捷鍵參考)
+1. https://github.com/preservim/nerdtree (官方版)
+2. https://gist.github.com/ifels/e0a6d79ee60e113f4294 (NERDTree 快捷鍵參考)
 
 ### Ctrlp
 
@@ -176,14 +176,13 @@ Ctrlp為Vim搜尋檔案的插件。可藉由輸入檔名，ctrlp會找到所有�
   ```
 
 * Keyboard shortcuts
-  1. <C-p> : 啟動搜尋
-  2. <C-d> : 以檔名為搜尋範圍(範圍較小、較精準)
-  3. <C-t> : 分頁方式打開文件
-  4. <C-x>, <C-v> : 水平、垂直分屏打開文件
+1. <C-p> : 啟動搜尋
+2. <C-d> : 以檔名為搜尋範圍(範圍較小、較精準)
+3. <C-t> : 分頁方式打開文件
+4. <C-x>, <C-v> : 水平、垂直分屏打開文件
 
 * URL
-
-  https://github.com/kien/ctrlp.vim (官方版)
+https://github.com/kien/ctrlp.vim (官方版)
 
 ### Vim-surround
 
@@ -198,16 +197,16 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
   ```
 
 * Keyboard shortcuts
-  1. 將文字選取後按 S<引號> : 增加引號
-  2. ysw<引號> : 將此處單詞增加引號
-  3. yss<引號> : 整行加上引號
-  4. ds<引號> : 刪除引號
-  5. cs<引號1><引號2> : 將<引號1>置換成<引號2>
-  6. **.**  :  可重複上一動 (但須額外加裝[vim-repeat][2])
+1. 將文字選取後按 S<引號> : 增加引號
+2. ysw<引號> : 將此處單詞增加引號
+3. yss<引號> : 整行加上引號
+4. ds<引號> : 刪除引號
+5. cs<引號1><引號2> : 將<引號1>置換成<引號2>
+6. **.**  :  可重複上一動 (但須額外加裝[vim-repeat][2])
 
 * URL
 
-  https://github.com/tpope/vim-surround (官方版)
+https://github.com/tpope/vim-surround (官方版)
 
   
 
@@ -223,9 +222,8 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 * Suggestion
 
-  1. 可以使用key-mapping function刻一些快捷鍵(以上為我的範例，可參考)。
-
-  2. 若不知道按鍵在Vim裡對應的名稱，可打指令 `:h key-notation` 查詢。
+1. 可以使用key-mapping function刻一些快捷鍵(以上為我的範例，可參考)。
+2. 若不知道按鍵在Vim裡對應的名稱，可打指令 `:h key-notation` 查詢。
 
 * Installation
 
