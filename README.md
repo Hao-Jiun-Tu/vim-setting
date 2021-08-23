@@ -66,7 +66,7 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
   Plug 'vim-airline/vim-airline-themes'
   ```
 
-  Note : vim-airline-themes提供許多主題，可以去其目錄套用vim scripts
+  Note : vim-airline-themes提供許多主題，可以去其目錄套用vim scripts。
 
   套用主題指令：
 
@@ -213,7 +213,7 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 我的Vim背景主題為gruvbox，若想套用其他背景主題可以去 [vimcolorschemes][3] 找喜歡的，到指定的github將vim script載入到 `~/.vim/colors` 內，並在 `.vimrc` 設定 `colorscheme <theme>`。
 
-我的Vim-airline主題為angr，若想更改請到下載插件的地方套用其vim script (上個部分Vim-airline有提及)。
+我的Vim-airline主題為angr，若想更改請到下載插件的地方套用其vim script(上個部分Vim-airline有提及)。
 
 我的Vim看起來如下(其實跟前面差不多)：
 
@@ -235,7 +235,7 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
   $ ln -s .vim/.gvimrc .gvimrc
   ```
 
-  
+  最後，開啟Vim在Normal mode，輸入 `:PlugInstall` 指令安裝外掛插件。
 
   
 
