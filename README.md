@@ -241,7 +241,9 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 ## HDL 快捷鍵設置
 
-此部分針對 HDL (Hardware Description Language) - Verilog 做快捷鍵的設置，vim script我放在 `vim-setting/plugin/hdlmap.vim` 內，有興趣可以參考，動手做一個適合自己的。部份如下：
+此部分針對 HDL (Hardware Description Language) - Verilog 做快捷鍵的設置。\ 
+
+Vim script我放在 `vim-setting/plugin/hdlmap.vim` 內，有興趣可以參考，動手做一個適合自己的。部份如下：
 
 ![screenshot](screenshot/hdlmap.png)
 
