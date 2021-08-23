@@ -64,5 +64,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
 call plug#end()
 
