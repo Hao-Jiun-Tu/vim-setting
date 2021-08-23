@@ -225,7 +225,7 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 * Installation
 
-  若想使用我的Vim設定，可透過以下方式安裝(請先把自己的 `.vimrc` 、 `.gvimrc` 以及 `.vim` 備份！！！)：
+  若想使用我的Vim設定，可透過以下方式安裝(請先把自己的 `.vimrc` 、 `.gvimrc` 以及 `.vim` 備份!!)：
 
   ```visual basic
   $ cd ~
