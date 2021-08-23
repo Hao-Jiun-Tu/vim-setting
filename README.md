@@ -53,7 +53,9 @@ Vim-plug 為Vim**管理外掛插件**中好用的套件。
 
 ### Vim-airline
 
-Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode、目前行數以及此為什麼類型的檔案)、上方增加分頁欄列。看起來如下：
+Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode、目前行數以及此為什麼類型的檔案)、上方增加分頁欄列。
+
+看起來如下：
 
 ![screenshot](screenshot/vim-airline.png)
 
@@ -94,7 +96,9 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
 
 ### NERDTree
 
-NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟體的檔案管理功能相近 (甚至更方便～)。看起來如下：
+NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟體的檔案管理功能相近 (甚至更方便～)。
+
+看起來如下：
 
 ![screenshot](screenshot/vim-nerdtree.png)
 
@@ -153,6 +157,7 @@ NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟�
 ### Ctrlp
 
 Ctrlp為Vim搜尋檔案的插件。可藉由輸入檔名，ctrlp會找到所有相關的檔案，關係由小到大排列出來。
+
 看起來如下：
 
 ![screenshot](screenshot/vim-ctrlp.png)
@@ -243,7 +248,9 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 此部分針對 HDL (Hardware Description Language) - Verilog 做快捷鍵的設置。
 
-Vim script我放在 `vim-setting/plugin/hdlmap.vim` 內，有興趣可以參考，動手做一個適合自己的。部份如下：
+Vim script我放在 `vim-setting/plugin/hdlmap.vim` 內，有興趣可以參考，動手做一個適合自己的。
+
+部份如下：
 
 ![screenshot](screenshot/hdlmap.png)
 
