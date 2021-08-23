@@ -5,7 +5,7 @@ set mouse=a
 set ai
 set cursorline
 set tabstop=4
-set shiftwidth=8
+set shiftwidth=4
 set showcmd
 set noshowmode
 set textwidth=0					"auto change line if meet textwidth
@@ -20,7 +20,7 @@ colorscheme gruvbox
 
 "Command shortcuts @ insert mode
 "auto complete the word
-inoremap <S-Down> <C-x><C-n>
+inoremap <S-q> <C-x><C-n>
 "save file
 inoremap <C-s> <Esc>:w<CR>
 "copy / cut / paste
