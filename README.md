@@ -53,8 +53,7 @@ Vim-plug 為Vim**管理外掛插件**中好用的套件。
 
 ### Vim-airline
 
-Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode、目前行數以及此為什麼類型的檔案)、上方增加分頁欄列。
-看起來如下：
+Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode、目前行數以及此為什麼類型的檔案)、上方增加分頁欄列。看起來如下：
 
 ![screenshot](screenshot/vim-airline.png)
 
@@ -95,8 +94,7 @@ Vim-airline 可使Vim下方增加狀態列(顯示Insert、Normal、Visual mode�
 
 ### NERDTree
 
-NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟體的檔案管理功能相近 (甚至更方便～)。
-看起來如下：
+NERDTree 為Vim樹狀檔案管理的插件，與VS Code、MobaXterm這一類軟體的檔案管理功能相近 (甚至更方便～)。看起來如下：
 
 ![screenshot](screenshot/vim-nerdtree.png)
 
@@ -231,7 +229,10 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
   ```visual basic
   $ cd ~
+  $ rm -rf .vimrc .vim .gvimrc
   $ git clone https://github.com/Hao-Jiun-Tu/vim-setting.git .vim
+  $ ln -s .vim/.vimrc .vimrc
+  $ ln -s .vim/.gvimrc .gvimrc
   ```
 
   
