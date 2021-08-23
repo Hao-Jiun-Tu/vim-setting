@@ -211,11 +211,11 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
 
 ## 我的Vim設定檔
 
-我的Vim背景主題為gruvbox，若想套用其他背景主題可以去 [vimcolorschemes][3] 找喜歡的，到指定的github將vim script載入到 `~/.vim/colors` 內，並在 `.vimrc` 設定 `colorscheme <theme>`。
+1. 背景主題為gruvbox，若想套用其他背景主題可以去[vimcolorschemes][3]找喜歡的，到指定的github將vim script載入到 `~/.vim/colors` 內，並在 `.vimrc` 設定 `colorscheme <theme>`。
 
-我的Vim-airline主題為angr，若想更改請到下載插件的地方套用其vim script(上個部分Vim-airline有提及)。
+2. Vim-airline主題為angr，若想更改請到下載插件的地方套用其vim script(上個部分Vim-airline有提及)。
 
-我的Vim看起來如下(其實跟前面差不多)：
+看起來如下(其實跟前面差不多)：
 
 ![screenshot](screenshot/vim-bg.png)
 
@@ -238,6 +238,16 @@ Vim-surround 可針對單詞快速加上/去除引號，或是輕易地將引號
   最後，開啟Vim在Normal mode，輸入 `:PlugInstall` 指令安裝外掛插件。
 
   
+
+## HDL 快捷鍵設置
+
+此部分針對 HDL (Hardware Description Language) - Verilog 做快捷鍵的設置，vim script我放在 `vim-setting/plugin/hdlmap.vim` 內，有興趣可以參考，動手做一個適合自己的。部份如下：
+
+![screenshot](screenshot/hdlmap.png)
+
+其他程式語言也可以用類似方法做出快捷鍵，重點就是方便就好，若有任何問題可以跟我一起討論～
+
+
 
 
 
