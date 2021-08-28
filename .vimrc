@@ -27,29 +27,30 @@ inoremap <C-s> <Esc>:w<CR>
 inoremap <C-c> <Esc>yyi
 inoremap <C-x> <Esc>yyddi
 inoremap <C-v> <Esc>pi
-"undo / redo
-inoremap <S-Left> <Esc>ui
-inoremap <S-Right> <Esc><C-r>i
-
+"Move cursor
+inoremap <S-Up> <Esc><C-b>i
+inoremap <S-Down> <Esc><C-f>i
+inoremap <S-Left> <Esc>Bi
+inoremap <S-Right> <Esc>Wa
 
 "Command shortcuts @ normal mode
-nnoremap <F1> :vsplit 
-nnoremap <F2> :%s///g<Left><Left><Left>
-nnoremap <F3> :noh<CR>
+nnoremap <F1> :tabe  
+nnoremap <F2> :vsplit 
+nnoremap <F3> :%s///g<Left><Left><Left>
+nnoremap <F4> :noh<CR>
+nnoremap <F5> yyp<C-a>
 "tab pages
-nnoremap <S-Up> :tabe 
 nnoremap <S-Right> :tabnext<CR>
 nnoremap <S-Left> :tabNext<CR>
 "Add/Remove constant commands
 nnoremap <C-c> <Home>i//<Esc>j
 nnoremap <S-c> <Home>xx<Esc>j
 "move front / back pages
-nnoremap <C-Up> <C-b>
-nnoremap <C-Down> <C-f>
-
+nnoremap <S-Up> <C-b>
+nnoremap <S-Down> <C-f>
 
 "Command shortcuts @ visual mode
-vnoremap <F2> :s///g<Left><Left><Left>
+vnoremap <F3> :s///g<Left><Left><Left>
 vnoremap <Tab> >
 vnoremap <S-Tab> <
 
